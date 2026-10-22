@@ -1,0 +1,263 @@
+{
+ "days": [
+  {
+   "name": "Chest / Triceps",
+   "chips": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+   ],
+   "slots": [
+    {
+     "exercise": "Bench press",
+     "sets": 3,
+     "lo": 8,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "Chest press machine",
+      "Dumbbell bench press",
+      "Machine press (plate-loaded)",
+      "Push-ups"
+     ]
+    },
+    {
+     "exercise": "Machine shoulder press",
+     "sets": 3,
+     "lo": 8,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "DB shoulder press",
+      "Barbell overhead press"
+     ]
+    },
+    {
+     "exercise": "Upright row (dumbbell)",
+     "sets": 3,
+     "lo": 10,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "Upright row (cable)",
+      "Upright row (barbell)"
+     ]
+    },
+    {
+     "exercise": "Triceps machine",
+     "sets": 3,
+     "lo": 10,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "Triceps pushdown (cable)",
+      "Band triceps pushdown"
+     ]
+    },
+    {
+     "exercise": "Triceps pushdown (cable)",
+     "sets": 3,
+     "lo": 10,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "Overhead cable triceps extension",
+      "Overhead dumbbell triceps extension"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Back / Biceps",
+   "chips": [
+    "BACK",
+    "BICEPS"
+   ],
+   "slots": [
+    {
+     "exercise": "EZ-bar curl",
+     "sets": 4,
+     "lo": 6,
+     "hi": 10,
+     "roundSec": 120,
+     "swaps": [
+      "Preacher curl",
+      "Bicep machine",
+      "Dumbbell curl"
+     ]
+    },
+    {
+     "exercise": "Incline dumbbell curl",
+     "sets": 3,
+     "lo": 8,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "Bayesian cable curl",
+      "Drag curl"
+     ]
+    },
+    {
+     "exercise": "Chin-up",
+     "sets": 4,
+     "lo": 6,
+     "hi": 10,
+     "roundSec": 120,
+     "swaps": [
+      "Assisted pull-up",
+      "Underhand lat pulldown",
+      "Lat pulldown"
+     ]
+    },
+    {
+     "exercise": "Chest-supported row (machine)",
+     "sets": 3,
+     "lo": 8,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "Row machine",
+      "Cable row",
+      "Dumbbell row",
+      "Incline bench chest-supported row (dumbbell)"
+     ]
+    },
+    {
+     "exercise": "Lat pulldown",
+     "sets": 3,
+     "lo": 10,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "Assisted pull-up",
+      "Band lat pulldown",
+      "Straight-arm pulldown"
+     ]
+    },
+    {
+     "exercise": "Hammer curl",
+     "sets": 3,
+     "lo": 10,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "Rope hammer curl",
+      "Bayesian cable curl"
+     ]
+    },
+    {
+     "exercise": "Rear delt pull (cable)",
+     "sets": 3,
+     "lo": 12,
+     "hi": 15,
+     "roundSec": 120,
+     "swaps": [
+      "Reverse pec deck",
+      "Lying rear delt raise",
+      "Face pull"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Legs / Calves",
+   "chips": [
+    "LEGS",
+    "CALVES"
+   ],
+   "slots": [
+    {
+     "exercise": "Barbell back squat",
+     "sets": 3,
+     "lo": 8,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "Seated leg press",
+      "Leg press",
+      "Goblet squat",
+      "Smith machine squat",
+      "Hack squat"
+     ]
+    },
+    {
+     "exercise": "Walking lunges",
+     "sets": 3,
+     "lo": 10,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "Reverse lunge (dumbbell)",
+      "Bulgarian split squat",
+      "Dumbbell step-up"
+     ]
+    },
+    {
+     "exercise": "Leg extensions",
+     "sets": 3,
+     "lo": 10,
+     "hi": 15,
+     "roundSec": 120,
+     "swaps": [
+      "Sissy squat"
+     ]
+    },
+    {
+     "exercise": "Lying leg curl",
+     "sets": 3,
+     "lo": 10,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "Seated leg curl",
+      "Cable standing leg curl"
+     ]
+    },
+    {
+     "exercise": "Hip thrust (barbell)",
+     "sets": 3,
+     "lo": 8,
+     "hi": 12,
+     "roundSec": 120,
+     "swaps": [
+      "Hip thrust machine",
+      "Dumbbell hip thrust",
+      "Glute bridge"
+     ]
+    },
+    {
+     "exercise": "Hip abductor machine (out)",
+     "sets": 2,
+     "lo": 12,
+     "hi": 15,
+     "roundSec": 120,
+     "swaps": [
+      "Cable hip abduction",
+      "Banded lateral walk"
+     ]
+    },
+    {
+     "exercise": "Hip adductor machine (in)",
+     "sets": 2,
+     "lo": 12,
+     "hi": 15,
+     "roundSec": 120,
+     "swaps": [
+      "Cable hip adduction"
+     ]
+    },
+    {
+     "exercise": "Standing calf raise machine",
+     "sets": 4,
+     "lo": 10,
+     "hi": 15,
+     "roundSec": 120,
+     "swaps": [
+      "Seated calf raise machine",
+      "Leg press calf raise"
+     ]
+    }
+   ]
+  }
+ ]
+}

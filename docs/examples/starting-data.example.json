@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "profile": { "age": 35, "lowerBackProtection": true },
+  "clubs": [
+    { "name": "Example Club One", "unavailable": ["barbell-back-squat", "hip-thrust-barbell"] },
+    { "name": "Example Club Two", "unavailable": ["lat-pulldown"] }
+  ],
+  "weights": [
+    { "exerciseId": "bench-press", "weightKg": 60 },
+    { "exerciseId": "machine-shoulder-press", "weightKg": 30, "reps": 10 },
+    { "exerciseId": "ez-bar-curl", "weightKg": 25 },
+    { "exerciseId": "lat-pulldown", "weightKg": 45, "reps": 12 },
+    { "exerciseId": "leg-extensions", "weightKg": 50 },
+    { "exerciseId": "dumbbell-bench-press", "weightKg": 22.5 },
+    { "exerciseId": "assisted-pull-up", "weightKg": 40 },
+    { "exerciseId": "landmine-press", "weightKg": 20, "reps": 10 }
+  ],
+  "hurt": [
+    { "exerciseId": "upright-row-dumbbell", "joint": "SHOULDER" }
+  ],
+  "customExercises": [
+    {
+      "id": "landmine-press",
+      "name": "Landmine press",
+      "primaryMuscle": "Shoulders",
+      "equipment": "Barbell",
+      "swapGroup": "vertical-press",
+      "lowerBackLoad": "moderate",
+      "jointNotes": "Shoulders. Keep the ribs down.",
+      "stressesJoints": ["SHOULDER"],
+      "loadIncrementKg": 2.5,
+      "isAssisted": false,
+      "isBodyweight": false
+    }
+  ]
+}

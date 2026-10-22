@@ -1,0 +1,42 @@
+# Brainstorm mockups (local scratch)
+.superpowers/
+
+# Secrets — never commit
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+*.pem
+*.p12
+*.key
+.env
+.env.*
+google-services.json
+secrets.properties
+
+# Android / Gradle
+local.properties
+.gradle/
+build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Backups exported from the app
+*.gymbackup
+
+# Personal data (profile, starting weights) — loaded on first launch, never committed
+personal/

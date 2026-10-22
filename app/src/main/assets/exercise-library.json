@@ -1,0 +1,2156 @@
+{
+ "equipmentSummary": "Equipment categories typical of a large budget commercial gym chain: pin-loaded (selectorised) machines, plate-loaded machines, multiple squat racks, dumbbells up to about 60kg, straight and EZ barbells, benches, cable stations, kettlebells, bands, plyo boxes and a functional area. Specific machines vary by club, so the app treats every exercise as available until the lifter marks it unavailable at a club. lowerBackLoad: chest-supported, seated and bench-supported options are low; squats, overhead press, hip thrust, farmer's carry, loaded spinal flexion and back extension are moderate; bent-over row, deadlift and RDLs are high (hidden when lower-back protection is on). loadIncrementKg values are typical defaults, editable per equipment type.",
+ "exercises": [
+  {
+   "id": "bench-press",
+   "name": "Bench press",
+   "primaryMuscle": "Chest",
+   "equipment": "Barbell",
+   "swapGroup": "horizontal-press",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows, wrists. Keep shoulder blades set; use a rack with safety arms or a spotter.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW",
+    "WRIST"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "dumbbell-bench-press",
+   "name": "Dumbbell bench press",
+   "primaryMuscle": "Chest",
+   "equipment": "Dumbbell",
+   "swapGroup": "horizontal-press",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Friendlier range of motion than a barbell. Dumbbells cap at 60kg each.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "dumbbell-floor-press",
+   "name": "Dumbbell floor press",
+   "primaryMuscle": "Chest",
+   "equipment": "Dumbbell",
+   "swapGroup": "horizontal-press",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Triceps touch the floor, which limits shoulder range. Needs no bench, so it works when benches are busy.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "chest-press-machine",
+   "name": "Chest press machine",
+   "primaryMuscle": "Chest",
+   "equipment": "Selectorised machine",
+   "swapGroup": "horizontal-press",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Seated and supported.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "machine-press-plate-loaded",
+   "name": "Machine press (plate-loaded)",
+   "primaryMuscle": "Chest",
+   "equipment": "Plate-loaded machine",
+   "swapGroup": "horizontal-press",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Plate-loaded chest press; load each side evenly.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "push-ups",
+   "name": "Push-ups",
+   "primaryMuscle": "Chest",
+   "equipment": "Bodyweight",
+   "swapGroup": "horizontal-press",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows, wrists. Brace the core so the lower back does not sag. Hands on a bench to make it easier.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW",
+    "WRIST"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "incline-barbell-bench-press",
+   "name": "Incline barbell bench press",
+   "primaryMuscle": "Chest",
+   "equipment": "Barbell",
+   "swapGroup": "incline-press",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders (front delts), elbows. Needs an adjustable/incline bench or incline rack bench; bench type is not confirmed .",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "incline-dumbbell-press",
+   "name": "Incline dumbbell press",
+   "primaryMuscle": "Chest",
+   "equipment": "Dumbbell",
+   "swapGroup": "incline-press",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Use a 30 degree bench angle. Needs an adjustable bench; type not confirmed .",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "incline-machine-press",
+   "name": "Incline machine press",
+   "primaryMuscle": "Chest",
+   "equipment": "Selectorised machine",
+   "swapGroup": "incline-press",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Seated and supported.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "pec-deck",
+   "name": "Pec deck",
+   "primaryMuscle": "Chest",
+   "equipment": "Selectorised machine",
+   "swapGroup": "chest-fly",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulder front capsule; do not let the arms travel far behind the torso.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "cable-fly",
+   "name": "Cable fly",
+   "primaryMuscle": "Chest",
+   "equipment": "Cable",
+   "swapGroup": "chest-fly",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders; keep a slight elbow bend fixed.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "dumbbell-fly",
+   "name": "Dumbbell fly",
+   "primaryMuscle": "Chest",
+   "equipment": "Dumbbell",
+   "swapGroup": "chest-fly",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders (stretched position); keep the load light and the range controlled.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "db-shoulder-press",
+   "name": "DB shoulder press",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Dumbbell",
+   "swapGroup": "vertical-press",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Seated with back support keeps the lower back out of it; standing is the fallback if no upright bench.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "machine-shoulder-press",
+   "name": "Machine shoulder press",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Selectorised machine",
+   "swapGroup": "vertical-press",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Seated and supported.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "barbell-overhead-press",
+   "name": "Barbell overhead press",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Barbell",
+   "swapGroup": "vertical-press",
+   "lowerBackLoad": "moderate",
+   "jointNotes": "Shoulders, elbows, wrists. Standing, so it can arch the lower back; brace hard or do it seated.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW",
+    "WRIST",
+    "LOWER_BACK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "dumbbell-lateral-raise",
+   "name": "Dumbbell lateral raise",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Dumbbell",
+   "swapGroup": "lateral-raise",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders (side delt). Light loads; stop at shoulder height.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "loadIncrementKg": 2,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "cable-lateral-raise",
+   "name": "Cable lateral raise",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Cable",
+   "swapGroup": "lateral-raise",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders. Constant tension through the range.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "lateral-raise-machine",
+   "name": "Lateral raise machine",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Selectorised machine",
+   "swapGroup": "lateral-raise",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "upright-row-barbell",
+   "name": "Upright row (barbell)",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Barbell",
+   "swapGroup": "upright-row",
+   "lowerBackLoad": "low",
+   "jointNotes": "Also called 'Up rows'. Shoulder impingement risk; use a wide grip and keep the elbows below shoulder height.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "upright-row-cable",
+   "name": "Upright row (cable)",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Cable",
+   "swapGroup": "upright-row",
+   "lowerBackLoad": "low",
+   "jointNotes": "Also called 'Up rows'. Shoulder impingement risk; keep the elbows at or below shoulder height.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "upright-row-dumbbell",
+   "name": "Upright row (dumbbell)",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Dumbbell",
+   "swapGroup": "upright-row",
+   "lowerBackLoad": "low",
+   "jointNotes": "Also called 'Up rows'. Shoulder impingement risk; keep the elbows at or below shoulder height.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "reverse-pec-deck",
+   "name": "Reverse pec deck",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Selectorised machine",
+   "swapGroup": "rear-delt",
+   "lowerBackLoad": "low",
+   "jointNotes": "Rear delts, upper back. Chest-supported.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "rear-delt-pull-cable",
+   "name": "Rear delt pull (cable)",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Cable",
+   "swapGroup": "rear-delt",
+   "lowerBackLoad": "low",
+   "jointNotes": "Also called 'Rear delt pulls'. Rear delts. Cables at shoulder height, pulling across or back.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "lying-rear-delt-raise",
+   "name": "Lying rear delt raise",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Dumbbell",
+   "swapGroup": "rear-delt",
+   "lowerBackLoad": "low",
+   "jointNotes": "Rear delts. Chest-supported face-down on an incline bench so the lower back stays unloaded; needs an adjustable bench (type not confirmed ). Light dumbbells.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "loadIncrementKg": 2,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "band-pull-apart",
+   "name": "Band pull-apart",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Band",
+   "swapGroup": "rear-delt",
+   "lowerBackLoad": "low",
+   "jointNotes": "Rear delts, mid back. Arms straight at shoulder height, pull the band apart; a no-cable, no-bench fallback.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "face-pull",
+   "name": "Face pull",
+   "primaryMuscle": "Shoulders",
+   "equipment": "Cable",
+   "swapGroup": "rear-delt",
+   "lowerBackLoad": "low",
+   "jointNotes": "Rear delts, rotator cuff, upper back. Good for shoulder health.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "triceps-pushdown-cable",
+   "name": "Triceps pushdown (cable)",
+   "primaryMuscle": "Triceps",
+   "equipment": "Cable",
+   "swapGroup": "triceps-pushdown",
+   "lowerBackLoad": "low",
+   "jointNotes": "Also called 'Triceps pulls'. Elbows. Keep the elbows pinned to the sides.",
+   "stressesJoints": [
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "triceps-machine",
+   "name": "Triceps machine",
+   "primaryMuscle": "Triceps",
+   "equipment": "Selectorised machine",
+   "swapGroup": "triceps-pushdown",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows. Seated triceps extension or dip-style machine; confirm which type the club has.",
+   "stressesJoints": [
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "band-triceps-pushdown",
+   "name": "Band triceps pushdown",
+   "primaryMuscle": "Triceps",
+   "equipment": "Band",
+   "swapGroup": "triceps-pushdown",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows. A good fallback when the cables are busy; progress by band thickness or reps.",
+   "stressesJoints": [
+    "ELBOW"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "overhead-dumbbell-triceps-extension",
+   "name": "Overhead dumbbell triceps extension",
+   "primaryMuscle": "Triceps",
+   "equipment": "Dumbbell",
+   "swapGroup": "triceps-overhead",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows, shoulders. Seated with back support if available.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "overhead-cable-triceps-extension",
+   "name": "Overhead cable triceps extension",
+   "primaryMuscle": "Triceps",
+   "equipment": "Cable",
+   "swapGroup": "triceps-overhead",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows, shoulders.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "ez-bar-skull-crusher",
+   "name": "EZ-bar skull crusher",
+   "primaryMuscle": "Triceps",
+   "equipment": "EZ bar",
+   "swapGroup": "triceps-overhead",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows. Watch the elbow load; keep the weight moderate.",
+   "stressesJoints": [
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "close-grip-bench-press",
+   "name": "Close-grip bench press",
+   "primaryMuscle": "Triceps",
+   "equipment": "Barbell",
+   "swapGroup": "triceps-compound",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows, wrists, shoulders. Shoulder-width grip, not narrower.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW",
+    "WRIST"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "parallel-bar-dips",
+   "name": "Parallel bar dips",
+   "primaryMuscle": "Triceps",
+   "equipment": "Bodyweight",
+   "swapGroup": "triceps-compound",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders (deep range is stressful), elbows. Limit depth.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "assisted-dip-machine",
+   "name": "Assisted dip machine",
+   "primaryMuscle": "Triceps",
+   "equipment": "Assisted machine",
+   "swapGroup": "triceps-compound",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Often the same station as the assisted pull-up.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": true,
+   "isBodyweight": false
+  },
+  {
+   "id": "ez-bar-curl",
+   "name": "EZ-bar curl",
+   "primaryMuscle": "Biceps",
+   "equipment": "EZ bar",
+   "swapGroup": "biceps-curl",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows, wrists (the EZ bar is easier on the wrists). Stand tall, no swinging.",
+   "stressesJoints": [
+    "ELBOW",
+    "WRIST"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "dumbbell-curl",
+   "name": "Dumbbell curl",
+   "primaryMuscle": "Biceps",
+   "equipment": "Dumbbell",
+   "swapGroup": "biceps-curl",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows, wrists.",
+   "stressesJoints": [
+    "ELBOW",
+    "WRIST"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "cable-curl",
+   "name": "Cable curl",
+   "primaryMuscle": "Biceps",
+   "equipment": "Cable",
+   "swapGroup": "biceps-curl",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows.",
+   "stressesJoints": [
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "preacher-curl",
+   "name": "Preacher curl",
+   "primaryMuscle": "Biceps",
+   "equipment": "EZ bar",
+   "swapGroup": "biceps-preacher",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows (strong stretch at the bottom). Do not drop into full extension with heavy loads. The EZ bar is confirmed but a preacher bench is not.",
+   "stressesJoints": [
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "bicep-machine",
+   "name": "Bicep machine",
+   "primaryMuscle": "Biceps",
+   "equipment": "Selectorised machine",
+   "swapGroup": "biceps-preacher",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows. Preacher-style curl machine.",
+   "stressesJoints": [
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "concentration-curl",
+   "name": "Concentration curl",
+   "primaryMuscle": "Biceps",
+   "equipment": "Dumbbell",
+   "swapGroup": "biceps-preacher",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows. Seated, elbow braced against the inner thigh; a supported-curl fallback for the preacher.",
+   "stressesJoints": [
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "incline-dumbbell-curl",
+   "name": "Incline dumbbell curl",
+   "primaryMuscle": "Biceps",
+   "equipment": "Dumbbell",
+   "swapGroup": "biceps-lengthened",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows, front of shoulders (stretched). Bench at about 45 to 60 degrees; needs an adjustable bench (type not confirmed ).",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "bayesian-cable-curl",
+   "name": "Bayesian cable curl",
+   "primaryMuscle": "Biceps",
+   "equipment": "Cable",
+   "swapGroup": "biceps-lengthened",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows, shoulder front. Single-arm, cable behind the body, so the biceps is stretched.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "drag-curl",
+   "name": "Drag curl",
+   "primaryMuscle": "Biceps",
+   "equipment": "Barbell",
+   "swapGroup": "biceps-lengthened",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows. The bar drags up the torso with the elbows moving back; use a light load.",
+   "stressesJoints": [
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "hammer-curl",
+   "name": "Hammer curl",
+   "primaryMuscle": "Biceps",
+   "equipment": "Dumbbell",
+   "swapGroup": "biceps-neutral",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows, forearms. Neutral grip, easy on the wrists.",
+   "stressesJoints": [
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "rope-hammer-curl",
+   "name": "Rope hammer curl",
+   "primaryMuscle": "Biceps",
+   "equipment": "Cable",
+   "swapGroup": "biceps-neutral",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows, forearms.",
+   "stressesJoints": [
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "ez-bar-reverse-curl",
+   "name": "EZ-bar reverse curl",
+   "primaryMuscle": "Biceps",
+   "equipment": "EZ bar",
+   "swapGroup": "biceps-neutral",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows, forearms (brachioradialis). Overhand grip; use a light load.",
+   "stressesJoints": [
+    "ELBOW",
+    "WRIST"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "chin-up",
+   "name": "Chin-up",
+   "primaryMuscle": "Back",
+   "equipment": "Bodyweight",
+   "swapGroup": "vertical-pull",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows, shoulders. Underhand grip; avoid swinging. Needs a pull-up bar or rig.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "pull-up",
+   "name": "Pull-up",
+   "primaryMuscle": "Back",
+   "equipment": "Bodyweight",
+   "swapGroup": "vertical-pull",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Dead-hang start. Needs a pull-up bar or rig.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "assisted-pull-up",
+   "name": "Assisted pull-up",
+   "primaryMuscle": "Back",
+   "equipment": "Assisted machine",
+   "swapGroup": "vertical-pull",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Less assistance weight means harder, so load progression runs in reverse.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": true,
+   "isBodyweight": false
+  },
+  {
+   "id": "lat-pulldown",
+   "name": "Lat pulldown",
+   "primaryMuscle": "Back",
+   "equipment": "Selectorised machine",
+   "swapGroup": "vertical-pull",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Pull to the upper chest; avoid leaning far back.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "underhand-lat-pulldown",
+   "name": "Underhand lat pulldown",
+   "primaryMuscle": "Back",
+   "equipment": "Selectorised machine",
+   "swapGroup": "vertical-pull",
+   "lowerBackLoad": "low",
+   "jointNotes": "Elbows, shoulders. Shoulder-width underhand grip; more biceps involvement.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "band-lat-pulldown",
+   "name": "Band lat pulldown",
+   "primaryMuscle": "Back",
+   "equipment": "Band",
+   "swapGroup": "vertical-pull",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Kneeling, band anchored high on a rack; a lighter fallback when machines and bars are busy.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "straight-arm-pulldown",
+   "name": "Straight-arm pulldown",
+   "primaryMuscle": "Back",
+   "equipment": "Cable",
+   "swapGroup": "lat-isolation",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders. Slight hip hinge, braced core.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "dumbbell-pullover",
+   "name": "Dumbbell pullover",
+   "primaryMuscle": "Back",
+   "equipment": "Dumbbell",
+   "swapGroup": "lat-isolation",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders (deep stretch). Keep the load moderate and the lower back flat on the bench.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "band-straight-arm-pulldown",
+   "name": "Band straight-arm pulldown",
+   "primaryMuscle": "Back",
+   "equipment": "Band",
+   "swapGroup": "lat-isolation",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders. Anchor the band high on a rack.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "chest-supported-row-machine",
+   "name": "Chest-supported row (machine)",
+   "primaryMuscle": "Back",
+   "equipment": "Plate-loaded machine",
+   "swapGroup": "horizontal-pull",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Chest pad takes the load off the lower back. May be pin-loaded or plate-loaded at the club.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "incline-bench-chest-supported-row-dumbbell",
+   "name": "Incline bench chest-supported row (dumbbell)",
+   "primaryMuscle": "Back",
+   "equipment": "Dumbbell",
+   "swapGroup": "horizontal-pull",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Lie chest-down on an incline bench; substitute for the machine. Needs an adjustable bench (type not confirmed ).",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "dumbbell-row",
+   "name": "Dumbbell row",
+   "primaryMuscle": "Back",
+   "equipment": "Dumbbell",
+   "swapGroup": "horizontal-pull",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. One knee and hand on a bench to support the back.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "row-machine",
+   "name": "Row machine",
+   "primaryMuscle": "Back",
+   "equipment": "Selectorised machine",
+   "swapGroup": "horizontal-pull",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Seated with chest pad.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "cable-row",
+   "name": "Cable row",
+   "primaryMuscle": "Back",
+   "equipment": "Cable",
+   "swapGroup": "horizontal-pull",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Seated; do not rock the torso back and forth.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "inverted-row-barbell-in-rack",
+   "name": "Inverted row (barbell in rack)",
+   "primaryMuscle": "Back",
+   "equipment": "Barbell",
+   "swapGroup": "horizontal-pull",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, elbows. Bar set at hip to chest height in a rack, body straight; bend the knees to make it easier. Lower back is braced, not loaded.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW"
+   ],
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "barbell-bent-over-row",
+   "name": "Barbell bent-over row",
+   "primaryMuscle": "Back",
+   "equipment": "Barbell",
+   "swapGroup": "horizontal-pull",
+   "lowerBackLoad": "high",
+   "jointNotes": "Lower back (isometric load), shoulders, elbows. Hidden when lower-back protection is on; use a supported row instead.",
+   "stressesJoints": [
+    "SHOULDER",
+    "ELBOW",
+    "LOWER_BACK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "dumbbell-shrug",
+   "name": "Dumbbell shrug",
+   "primaryMuscle": "Back",
+   "equipment": "Dumbbell",
+   "swapGroup": "shrug",
+   "lowerBackLoad": "low",
+   "jointNotes": "Neck, upper traps. Heavy dumbbells strain the grip (max 60kg).",
+   "stressesJoints": [
+    "NECK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "barbell-shrug",
+   "name": "Barbell shrug",
+   "primaryMuscle": "Back",
+   "equipment": "Barbell",
+   "swapGroup": "shrug",
+   "lowerBackLoad": "low",
+   "jointNotes": "Neck, upper traps. Can be done from a rack.",
+   "stressesJoints": [
+    "NECK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "smith-machine-shrug",
+   "name": "Smith machine shrug",
+   "primaryMuscle": "Back",
+   "equipment": "Smith machine",
+   "swapGroup": "shrug",
+   "lowerBackLoad": "low",
+   "jointNotes": "Neck, upper traps. Smith machine not verified .",
+   "stressesJoints": [
+    "NECK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "45-degree-back-extension",
+   "name": "45-degree back extension",
+   "primaryMuscle": "Back",
+   "equipment": "Other",
+   "swapGroup": "back-extension",
+   "lowerBackLoad": "moderate",
+   "jointNotes": "Lower back, hips. A hyperextension bench is mentioned in one member review (club unknown). Bodyweight only; stop at a neutral spine.",
+   "stressesJoints": [
+    "HIP",
+    "LOWER_BACK"
+   ],
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "conventional-deadlift",
+   "name": "Conventional deadlift",
+   "primaryMuscle": "Back",
+   "equipment": "Barbell",
+   "swapGroup": "hip-hinge-hamstring",
+   "lowerBackLoad": "high",
+   "jointNotes": "Lower back, hips, knees. Hidden when lower-back protection is on.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP",
+    "LOWER_BACK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "romanian-deadlift",
+   "name": "Romanian deadlift",
+   "primaryMuscle": "Hamstrings",
+   "equipment": "Barbell",
+   "swapGroup": "hip-hinge-hamstring",
+   "lowerBackLoad": "high",
+   "jointNotes": "Lower back, hamstrings, hips. Hidden when lower-back protection is on.",
+   "stressesJoints": [
+    "HIP",
+    "LOWER_BACK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "dumbbell-romanian-deadlift",
+   "name": "Dumbbell Romanian deadlift",
+   "primaryMuscle": "Hamstrings",
+   "equipment": "Dumbbell",
+   "swapGroup": "hip-hinge-hamstring",
+   "lowerBackLoad": "high",
+   "jointNotes": "Lower back, hamstrings. Lighter than the barbell version but the same loaded hinge. Hidden when lower-back protection is on.",
+   "stressesJoints": [
+    "HIP",
+    "LOWER_BACK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "cable-pull-through",
+   "name": "Cable pull-through",
+   "primaryMuscle": "Glutes",
+   "equipment": "Cable",
+   "swapGroup": "hip-hinge-hamstring",
+   "lowerBackLoad": "moderate",
+   "jointNotes": "Hips, hamstrings, lower back (light). A gentler hinge pattern, but still a hinge; keep it light and the spine neutral.",
+   "stressesJoints": [
+    "HIP",
+    "LOWER_BACK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "barbell-back-squat",
+   "name": "Barbell back squat",
+   "primaryMuscle": "Quads",
+   "equipment": "Barbell",
+   "swapGroup": "knee-dominant",
+   "lowerBackLoad": "moderate",
+   "jointNotes": "Knees, hips, lower back. Moderate when braced and upright, high when very heavy or fatigued. Use rack safety arms.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP",
+    "LOWER_BACK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "front-squat",
+   "name": "Front squat",
+   "primaryMuscle": "Quads",
+   "equipment": "Barbell",
+   "swapGroup": "knee-dominant",
+   "lowerBackLoad": "moderate",
+   "jointNotes": "Knees, wrists/shoulders (rack position), upper back. More upright torso than a back squat.",
+   "stressesJoints": [
+    "SHOULDER",
+    "WRIST",
+    "KNEE"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "smith-machine-squat",
+   "name": "Smith machine squat",
+   "primaryMuscle": "Quads",
+   "equipment": "Smith machine",
+   "swapGroup": "knee-dominant",
+   "lowerBackLoad": "moderate",
+   "jointNotes": "Knees, hips. Smith machine not verified . A fixed bar path reduces balance demands.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "goblet-squat",
+   "name": "Goblet squat",
+   "primaryMuscle": "Quads",
+   "equipment": "Dumbbell",
+   "swapGroup": "knee-dominant",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hips. Light front load keeps the torso upright.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "kettlebell-goblet-squat",
+   "name": "Kettlebell goblet squat",
+   "primaryMuscle": "Quads",
+   "equipment": "Kettlebell",
+   "swapGroup": "knee-dominant",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hips. Same as the dumbbell goblet squat; kettlebell weight range is not published .",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "leg-press",
+   "name": "Leg press",
+   "primaryMuscle": "Quads",
+   "equipment": "Plate-loaded machine",
+   "swapGroup": "leg-press-machine",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hips. Do not let the pelvis tuck under at the bottom. Reviewers say the leg machines can max out for strong lifters.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "seated-leg-press",
+   "name": "Seated leg press",
+   "primaryMuscle": "Quads",
+   "equipment": "Selectorised machine",
+   "swapGroup": "leg-press-machine",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hips. Seated with back support. Stack may max out for strong lifters.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "hack-squat",
+   "name": "Hack squat",
+   "primaryMuscle": "Quads",
+   "equipment": "Plate-loaded machine",
+   "swapGroup": "leg-press-machine",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hips. Back is supported on the pad.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "smith-machine-feet-forward-squat",
+   "name": "Smith machine feet-forward squat",
+   "primaryMuscle": "Quads",
+   "equipment": "Smith machine",
+   "swapGroup": "leg-press-machine",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hips. Feet ahead of the bar and back leaning on it, like a hack squat. Smith machine not verified .",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "walking-lunges",
+   "name": "Walking lunges",
+   "primaryMuscle": "Quads",
+   "equipment": "Dumbbell",
+   "swapGroup": "lunge-split",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hips, balance. Needs clear floor space; use reverse lunges if the floor is crowded.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "reverse-lunge-dumbbell",
+   "name": "Reverse lunge (dumbbell)",
+   "primaryMuscle": "Quads",
+   "equipment": "Dumbbell",
+   "swapGroup": "lunge-split",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hips, balance. Steps back in place, so it needs less floor space and is easier on the knees than a forward lunge.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "bulgarian-split-squat",
+   "name": "Bulgarian split squat",
+   "primaryMuscle": "Quads",
+   "equipment": "Dumbbell",
+   "swapGroup": "lunge-split",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hips, balance. Back foot on a bench.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "dumbbell-step-up",
+   "name": "Dumbbell step-up",
+   "primaryMuscle": "Quads",
+   "equipment": "Dumbbell",
+   "swapGroup": "lunge-split",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hips, balance. Onto a plyo box or bench; keep the box at or below knee height.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "smith-machine-split-squat",
+   "name": "Smith machine split squat",
+   "primaryMuscle": "Quads",
+   "equipment": "Smith machine",
+   "swapGroup": "lunge-split",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hips. Smith machine not verified . Fixed path, so it is more stable.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "bodyweight-lunge",
+   "name": "Bodyweight lunge",
+   "primaryMuscle": "Quads",
+   "equipment": "Bodyweight",
+   "swapGroup": "lunge-split",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hips, balance.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "leg-extensions",
+   "name": "Leg extensions",
+   "primaryMuscle": "Quads",
+   "equipment": "Selectorised machine",
+   "swapGroup": "knee-extension",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees (shear at the top of the range). Control the lowering.",
+   "stressesJoints": [
+    "KNEE"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "sissy-squat",
+   "name": "Sissy squat",
+   "primaryMuscle": "Quads",
+   "equipment": "Bodyweight",
+   "swapGroup": "knee-extension",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees (high stress), ankles. Advanced. Hold a rack upright for support; use a partial range first.",
+   "stressesJoints": [
+    "KNEE"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "banded-terminal-knee-extension",
+   "name": "Banded terminal knee extension",
+   "primaryMuscle": "Quads",
+   "equipment": "Band",
+   "swapGroup": "knee-extension",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees. Anchor the band at the back of the knee; a knee-friendly, light, rehab-level option, not an equal stimulus to the machine.",
+   "stressesJoints": [
+    "KNEE"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "lying-leg-curl",
+   "name": "Lying leg curl",
+   "primaryMuscle": "Hamstrings",
+   "equipment": "Selectorised machine",
+   "swapGroup": "knee-flexion",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hamstring attachments. Keep the hips down on the pad.",
+   "stressesJoints": [
+    "KNEE"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "seated-leg-curl",
+   "name": "Seated leg curl",
+   "primaryMuscle": "Hamstrings",
+   "equipment": "Selectorised machine",
+   "swapGroup": "knee-flexion",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees. Seated with back support.",
+   "stressesJoints": [
+    "KNEE"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "cable-standing-leg-curl",
+   "name": "Cable standing leg curl",
+   "primaryMuscle": "Hamstrings",
+   "equipment": "Cable",
+   "swapGroup": "knee-flexion",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees. Ankle strap on a low cable; single leg.",
+   "stressesJoints": [
+    "KNEE"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "sliding-hamstring-curl",
+   "name": "Sliding hamstring curl",
+   "primaryMuscle": "Hamstrings",
+   "equipment": "Bodyweight",
+   "swapGroup": "knee-flexion",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hamstrings. Lie on the back, heels on a towel or slider on the floor, bridge up and slide the heels in and out. Keep the hips high; no equipment beyond a towel.",
+   "stressesJoints": [
+    "KNEE"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "nordic-curl",
+   "name": "Nordic curl",
+   "primaryMuscle": "Hamstrings",
+   "equipment": "Bodyweight",
+   "swapGroup": "knee-flexion",
+   "lowerBackLoad": "low",
+   "jointNotes": "Knees, hamstrings (very demanding, advanced). Anchor the feet under a bar or with a partner; use the arms to catch.",
+   "stressesJoints": [
+    "KNEE"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "hip-thrust-barbell",
+   "name": "Hip thrust (barbell)",
+   "primaryMuscle": "Glutes",
+   "equipment": "Barbell",
+   "swapGroup": "hip-thrust",
+   "lowerBackLoad": "moderate",
+   "jointNotes": "Hips, lower back (can over-arch at the top). Finish with ribs down and a posterior pelvic tilt. Use a pad.",
+   "stressesJoints": [
+    "HIP",
+    "LOWER_BACK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "dumbbell-hip-thrust",
+   "name": "Dumbbell hip thrust",
+   "primaryMuscle": "Glutes",
+   "equipment": "Dumbbell",
+   "swapGroup": "hip-thrust",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hips. Dumbbell across the hips, upper back on a bench.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "hip-thrust-machine",
+   "name": "Hip thrust machine",
+   "primaryMuscle": "Glutes",
+   "equipment": "Plate-loaded machine",
+   "swapGroup": "hip-thrust",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hips. Not confirmed .",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "glute-bridge",
+   "name": "Glute bridge",
+   "primaryMuscle": "Glutes",
+   "equipment": "Bodyweight",
+   "swapGroup": "hip-thrust",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hips. Floor-based; a good warm-up or home fallback.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "hip-abductor-machine-out",
+   "name": "Hip abductor machine (out)",
+   "primaryMuscle": "Glutes",
+   "equipment": "Selectorised machine",
+   "swapGroup": "hip-abduction",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hips. Seated, legs pushed outward.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "cable-hip-abduction",
+   "name": "Cable hip abduction",
+   "primaryMuscle": "Glutes",
+   "equipment": "Cable",
+   "swapGroup": "hip-abduction",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hips. Ankle strap; hold a rack for balance.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "banded-lateral-walk",
+   "name": "Banded lateral walk",
+   "primaryMuscle": "Glutes",
+   "equipment": "Band",
+   "swapGroup": "hip-abduction",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hips, knees (keep them from caving in). Band above the knees.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "hip-adductor-machine-in",
+   "name": "Hip adductor machine (in)",
+   "primaryMuscle": "Glutes",
+   "equipment": "Selectorised machine",
+   "swapGroup": "hip-adduction",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hips, groin. Seated, legs pulled together; ease into the starting range.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "cable-hip-adduction",
+   "name": "Cable hip adduction",
+   "primaryMuscle": "Glutes",
+   "equipment": "Cable",
+   "swapGroup": "hip-adduction",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hips, groin. Ankle strap; single leg.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "copenhagen-plank",
+   "name": "Copenhagen plank",
+   "primaryMuscle": "Glutes",
+   "equipment": "Bodyweight",
+   "swapGroup": "hip-adduction",
+   "lowerBackLoad": "low",
+   "jointNotes": "Adductors, groin, obliques. Advanced; groin strain risk. Top leg on a bench. Start with the short-lever version.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "standing-calf-raise-machine",
+   "name": "Standing calf raise machine",
+   "primaryMuscle": "Calves",
+   "equipment": "Selectorised machine",
+   "swapGroup": "calf-raise",
+   "lowerBackLoad": "low",
+   "jointNotes": "Ankles, Achilles. Full stretch, pause at the top.",
+   "stressesJoints": [],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "seated-calf-raise-machine",
+   "name": "Seated calf raise machine",
+   "primaryMuscle": "Calves",
+   "equipment": "Selectorised machine",
+   "swapGroup": "calf-raise",
+   "lowerBackLoad": "low",
+   "jointNotes": "Ankles, Achilles. Bent knee, so it emphasises the soleus rather than the gastrocnemius.",
+   "stressesJoints": [],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "leg-press-calf-raise",
+   "name": "Leg press calf raise",
+   "primaryMuscle": "Calves",
+   "equipment": "Plate-loaded machine",
+   "swapGroup": "calf-raise",
+   "lowerBackLoad": "low",
+   "jointNotes": "Ankles, Achilles. Balls of the feet on the bottom of the sled plate, knees nearly straight; do not lock the knees. Only if a leg press exists.",
+   "stressesJoints": [],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "smith-machine-calf-raise",
+   "name": "Smith machine calf raise",
+   "primaryMuscle": "Calves",
+   "equipment": "Smith machine",
+   "swapGroup": "calf-raise",
+   "lowerBackLoad": "low",
+   "jointNotes": "Ankles, Achilles. Toes on a plate or step. Smith machine not verified .",
+   "stressesJoints": [],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "single-leg-dumbbell-calf-raise",
+   "name": "Single-leg dumbbell calf raise",
+   "primaryMuscle": "Calves",
+   "equipment": "Dumbbell",
+   "swapGroup": "calf-raise",
+   "lowerBackLoad": "low",
+   "jointNotes": "Ankles, Achilles. Standing on a step or plyo box, holding a rack for balance.",
+   "stressesJoints": [],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "forearm-curl-dumbbell",
+   "name": "Forearm curl (dumbbell)",
+   "primaryMuscle": "Forearms",
+   "equipment": "Dumbbell",
+   "swapGroup": "forearm-flexion",
+   "lowerBackLoad": "low",
+   "jointNotes": "Wrists, forearms. Forearms rest on a bench with palms up.",
+   "stressesJoints": [
+    "WRIST"
+   ],
+   "loadIncrementKg": 2,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "forearm-curl-barbell",
+   "name": "Forearm curl (barbell)",
+   "primaryMuscle": "Forearms",
+   "equipment": "Barbell",
+   "swapGroup": "forearm-flexion",
+   "lowerBackLoad": "low",
+   "jointNotes": "Wrists, forearms. Light load; full range.",
+   "stressesJoints": [
+    "WRIST"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "forearm-curl-cable",
+   "name": "Forearm curl (cable)",
+   "primaryMuscle": "Forearms",
+   "equipment": "Cable",
+   "swapGroup": "forearm-flexion",
+   "lowerBackLoad": "low",
+   "jointNotes": "Wrists, forearms.",
+   "stressesJoints": [
+    "WRIST"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "farmer-s-carry",
+   "name": "Farmer's carry",
+   "primaryMuscle": "Forearms",
+   "equipment": "Dumbbell",
+   "swapGroup": "grip-carry",
+   "lowerBackLoad": "moderate",
+   "jointNotes": "Grip, forearms, trunk and lower back (static load). Stand tall; needs clear floor space. Kettlebells also work.",
+   "stressesJoints": [
+    "LOWER_BACK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "dead-hang",
+   "name": "Dead hang",
+   "primaryMuscle": "Forearms",
+   "equipment": "Bodyweight",
+   "swapGroup": "grip-hang",
+   "lowerBackLoad": "low",
+   "jointNotes": "Grip, shoulders (a gentle decompression stretch). Timed hold of 20 to 40 seconds. Needs a pull-up bar or rig.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "hanging-leg-raise",
+   "name": "Hanging leg raise",
+   "primaryMuscle": "Core",
+   "equipment": "Bodyweight",
+   "swapGroup": "core-leg-raise",
+   "lowerBackLoad": "low",
+   "jointNotes": "Grip, shoulders, hip flexors. Curl the pelvis up and do not swing or arch. Needs a pull-up bar or rig; bend the knees to make it easier.",
+   "stressesJoints": [
+    "SHOULDER",
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "captain-s-chair-leg-raise",
+   "name": "Captain's chair leg raise",
+   "primaryMuscle": "Core",
+   "equipment": "Other",
+   "swapGroup": "core-leg-raise",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hip flexors, elbows. Back supported on the pad. Not confirmed .",
+   "stressesJoints": [
+    "ELBOW",
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "lying-leg-raise",
+   "name": "Lying leg raise",
+   "primaryMuscle": "Core",
+   "equipment": "Bodyweight",
+   "swapGroup": "core-leg-raise",
+   "lowerBackLoad": "moderate",
+   "jointNotes": "Hip flexors, lower back (it can arch under load). Bend the knees and press the lower back into the floor.",
+   "stressesJoints": [
+    "HIP",
+    "LOWER_BACK"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "cable-crunch",
+   "name": "Cable crunch",
+   "primaryMuscle": "Core",
+   "equipment": "Cable",
+   "swapGroup": "core-crunch",
+   "lowerBackLoad": "moderate",
+   "jointNotes": "Loaded spine flexion, which can aggravate a sensitive lower back. Hips stay fixed; curl the ribs toward the pelvis; keep the load light.",
+   "stressesJoints": [
+    "LOWER_BACK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "ab-crunch-machine",
+   "name": "Ab crunch machine",
+   "primaryMuscle": "Core",
+   "equipment": "Selectorised machine",
+   "swapGroup": "core-crunch",
+   "lowerBackLoad": "moderate",
+   "jointNotes": "Loaded spine flexion, which can aggravate a sensitive lower back. Keep the load light and the range small.",
+   "stressesJoints": [
+    "LOWER_BACK"
+   ],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "reverse-crunch",
+   "name": "Reverse crunch",
+   "primaryMuscle": "Core",
+   "equipment": "Bodyweight",
+   "swapGroup": "core-crunch",
+   "lowerBackLoad": "low",
+   "jointNotes": "Lower abs, hip flexors. Lying on the back, curl the pelvis off the floor with control; do not swing the legs.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "plank",
+   "name": "Plank",
+   "primaryMuscle": "Core",
+   "equipment": "Bodyweight",
+   "swapGroup": "core-stability",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, lower back (stability). Timed hold of 20 to 60 seconds.",
+   "stressesJoints": [
+    "SHOULDER",
+    "LOWER_BACK"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "side-plank",
+   "name": "Side plank",
+   "primaryMuscle": "Core",
+   "equipment": "Bodyweight",
+   "swapGroup": "core-stability",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, obliques, hips. Timed hold of 15 to 45 seconds per side.",
+   "stressesJoints": [
+    "SHOULDER",
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "pallof-press-cable",
+   "name": "Pallof press (cable)",
+   "primaryMuscle": "Core",
+   "equipment": "Cable",
+   "swapGroup": "core-stability",
+   "lowerBackLoad": "low",
+   "jointNotes": "Trunk (anti-rotation). Low-load; a good option for lower back control.",
+   "stressesJoints": [],
+   "loadIncrementKg": 2.5,
+   "isAssisted": false,
+   "isBodyweight": false
+  },
+  {
+   "id": "band-pallof-press",
+   "name": "Band Pallof press",
+   "primaryMuscle": "Core",
+   "equipment": "Band",
+   "swapGroup": "core-stability",
+   "lowerBackLoad": "low",
+   "jointNotes": "Trunk (anti-rotation). Band anchored at chest height on a rack; the no-cable version of the Pallof press.",
+   "stressesJoints": [],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "chin-tucks",
+   "name": "Chin tucks",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-neck",
+   "lowerBackLoad": "low",
+   "jointNotes": "Neck (cervical spine). Timed hold of 5 seconds for 10 reps, or 30 seconds in total.",
+   "stressesJoints": [
+    "NECK"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "neck-rotations",
+   "name": "Neck rotations",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-neck",
+   "lowerBackLoad": "low",
+   "jointNotes": "Neck. Slow and pain-free, 30 seconds in total (each side, with a pause at the end range).",
+   "stressesJoints": [
+    "NECK"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "neck-side-stretch",
+   "name": "Neck side stretch",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-neck",
+   "lowerBackLoad": "low",
+   "jointNotes": "Neck, upper traps. Timed hold of 30 seconds each side; no pulling on the head.",
+   "stressesJoints": [
+    "NECK"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "cat-cow",
+   "name": "Cat-cow",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-lowerback",
+   "lowerBackLoad": "low",
+   "jointNotes": "Lumbar and thoracic spine. 10 slow reps or a 45 second timed set.",
+   "stressesJoints": [
+    "LOWER_BACK"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "child-s-pose",
+   "name": "Child's pose",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-lowerback",
+   "lowerBackLoad": "low",
+   "jointNotes": "Lower back, lats, hips. Timed hold of 30 to 60 seconds.",
+   "stressesJoints": [
+    "HIP",
+    "LOWER_BACK"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "pelvic-tilt",
+   "name": "Pelvic tilt",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-lowerback",
+   "lowerBackLoad": "low",
+   "jointNotes": "Lumbar spine, deep abdominals. Lying on the back with knees bent, flatten and release the lower back; 10 slow reps or 30 seconds.",
+   "stressesJoints": [
+    "LOWER_BACK"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "knee-to-chest-stretch",
+   "name": "Knee-to-chest stretch",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-lowerback",
+   "lowerBackLoad": "low",
+   "jointNotes": "Lower back, glutes, hips. Lying on the back, hug one knee in; timed hold of 20 to 30 seconds per side. Ease off if it pinches.",
+   "stressesJoints": [
+    "HIP",
+    "LOWER_BACK"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "bird-dog",
+   "name": "Bird-dog",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "stability-lowerback",
+   "lowerBackLoad": "low",
+   "jointNotes": "Lower back stability, hips, shoulders. Hold 5 to 10 seconds per rep, 30 seconds per side.",
+   "stressesJoints": [
+    "SHOULDER",
+    "HIP",
+    "LOWER_BACK"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "dead-bug",
+   "name": "Dead bug",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "stability-lowerback",
+   "lowerBackLoad": "low",
+   "jointNotes": "Lower back and trunk control. Lower back stays flat on the floor; 30 to 45 seconds.",
+   "stressesJoints": [
+    "LOWER_BACK"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "90-90-hip-stretch",
+   "name": "90/90 hip stretch",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-hips",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hip internal and external rotation, knees. Timed hold of 30 seconds per side.",
+   "stressesJoints": [
+    "KNEE",
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "half-kneeling-hip-flexor-stretch",
+   "name": "Half-kneeling hip flexor stretch",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-hips",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hip flexors, quads. Squeeze the glute and keep the ribs down. Timed hold of 30 seconds per side.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "figure-four-stretch",
+   "name": "Figure-four stretch",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-hips",
+   "lowerBackLoad": "low",
+   "jointNotes": "Glutes, hip external rotators. Lying on the back. Timed hold of 30 seconds per side.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "wall-kicks",
+   "name": "Wall kicks",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "hip-dynamic",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hip flexors and hamstrings (dynamic). Hand on a wall for balance; 10 to 15 controlled swings per side.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "high-kicks",
+   "name": "High kicks",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "hip-dynamic",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hamstrings, hip flexors (dynamic). Keep a controlled range; stop short of lower-back rounding.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "leg-swings",
+   "name": "Leg swings",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "hip-dynamic",
+   "lowerBackLoad": "low",
+   "jointNotes": "Hips (dynamic). Front-to-back and side-to-side; 10 to 15 reps per leg.",
+   "stressesJoints": [
+    "HIP"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "thread-the-needle",
+   "name": "Thread the needle",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-shoulders",
+   "lowerBackLoad": "low",
+   "jointNotes": "Thoracic spine, shoulders. Timed hold of 20 to 30 seconds per side.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "doorway-pec-stretch",
+   "name": "Doorway pec stretch",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-shoulders",
+   "lowerBackLoad": "low",
+   "jointNotes": "Chest, front of shoulders. Use a rack upright or a wall. Timed hold of 30 seconds per side.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  },
+  {
+   "id": "wall-slides",
+   "name": "Wall slides",
+   "primaryMuscle": "Mobility",
+   "equipment": "Bodyweight",
+   "swapGroup": "mobility-shoulders",
+   "lowerBackLoad": "low",
+   "jointNotes": "Shoulders, scapular control, thoracic spine. Back flat on the wall. 10 slow reps or a 45 second set.",
+   "stressesJoints": [
+    "SHOULDER"
+   ],
+   "isAssisted": false,
+   "isBodyweight": true
+  }
+ ]
+}
